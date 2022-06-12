@@ -1,0 +1,26 @@
+inicio
+    txt teste;
+    binario valor;
+    num cont;
+
+    valor := true;
+    imprimir("Qual o valor a?");
+    teste := "oi";
+    caso(valor == true) {
+        repete(5, contador) {
+            imprimir(contador);
+            imprimir("tchau");
+        }
+    } caso contrario {
+        imprimir("Voce falou");
+        imprimir(teste);
+    }
+    cont := 0;
+    enquanto (valor == true) {
+        cont := cont + 1;
+        imprimir(cont);
+        caso (cont >= 3) {
+            valor := false;
+        }
+    }
+fim;
